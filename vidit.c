@@ -16,7 +16,7 @@ int main()
     printf("Perimeter of circle is %f", perimeter);
 }
 
-float areaperi(int r, float *a, float *p)
+float areaperi(int r, float* *a, float* *p)
 
 {
     *a = 3.14*r*r;
